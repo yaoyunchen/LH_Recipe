@@ -1,0 +1,206 @@
+body {
+	background-color: #e6e6e6;
+	font-family: Times, Arial, serif;
+	color: black;
+}
+
+/*Left*/
+.Left {
+	float: left;
+	padding-left: 10px;
+}
+
+/*Right*/
+.Right {
+	float: right;
+	padding-right: 10px;
+}
+
+.MainDiv {
+	width: 100%;
+	display: flex;
+	margin: 1px 0 1px 0;
+}
+.MainDiv a{
+	text-decoration: none;
+	font-weight: bold;
+}
+.MainDiv a:hover{
+	color: orange;
+}
+
+/*Title*/
+#Title{
+	z-index: 1;
+	position: fixed;
+	width:100%;
+	margin: -10px auto 0 auto;
+	background-color: #e6e6e6;
+}
+#Title h1 {
+	margin: 0;
+	font-size: 60px;
+	font-family: Century, Arial, serif;
+	color: #4C4C4C;
+}
+#Title p {
+	margin: 0;	
+}
+
+/*Finished picture*/
+#FinImg {
+	margin: 75px 0 0 0;
+	width: 100%;
+	float: left;
+	position: relative;
+	background-color: #e6e6e6;
+}
+#FinImg img {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease
+	transition: all 0.5s ease;
+}
+#FinImg Img:hover {
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5)
+	transform: scale(1.5);
+	opacity: 0.5;
+}
+.ImgDisp {
+	display: inline-block;
+	padding: 0;
+	width: 33%;
+	width: calc(100%/3);
+	overflow: hidden;
+}
+.ImgScale {
+	max-width: 99%;
+	max-height: 99%;
+	border-radius: 100%;
+	border: 2px solid gray;
+	box-shadow: 4px 4px 4px #888888;
+}
+
+/*Intro*/
+#IntroLeft {
+	border: 1px solid #656565;
+	border-radius: 10px;
+	background-color: #CECECE;
+	display: inline-block;
+	float: left;
+	width: 50%;
+	width: 33%;
+	width: calc(100%/3);
+	padding-left: 5px;
+	margin-right: 1px;
+}
+#IntroRight {
+	border: 1px solid #656565;
+	border-radius: 10px;
+	background-color: #CECECE;
+	display: inline-block;
+	float: right;
+	width: 50%;
+	width: 67%;
+	width: calc(200%/3);
+	padding-left: 5px;
+	margin-left: 1px;
+}
+
+/*Ingredients & Equipment Styling */
+#IngredEquip {
+	width: 75%;
+	margin: auto;
+}
+table {
+	width: 90%;
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin: auto;
+	box-shadow: 10px 10px 5px #888888;
+}
+td {
+	border: 2px solid black;
+}
+tbody tr:hover {
+	background-color: #505050;
+	color: white;
+	font-weight: bold;
+}
+.Marked {
+	background-color: green;
+}
+
+/*Procedure*/
+#ProLeft {
+	background-color: #808080;
+	color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	display: inline-block;
+	float: left;
+	width: 67%;
+	width: calc(200%/3);
+	padding-left: 5px;
+	margin-right: 1px;
+}
+
+#ProRight {
+	background-color: #808080;
+	color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	display: inline-block;
+	float: right;
+	width: 33%;
+	width: calc(100%/3);
+	padding: 0;
+	margin: 0;
+}
+#ProRight img {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 10px;
+}
+
+/*Hide Image*/
+#HideImg {
+	position: relative;
+	height: 40px;
+	border-radius: 10px;
+	border: 2px solid silver;
+	background-color: #525252;
+	text-shadow: 0px 1px 0px #2f6627;
+	text-align: center;
+	top: 72px;
+}
+#HideImg:hover {
+	background-color: #313131;
+}
+#hideImg:active {
+	background-color: black;
+}
+.HideImg {
+	display: none;
+}
+
+
+.PlaceHolder {
+	font-weight: bold;
+	color: black;
+	font-style: italic;
+}
+
+.NoSelect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
